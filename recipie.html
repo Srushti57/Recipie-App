@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <div class="mobile_container">
+       <header>
+           <input type="text" id="search-term">
+           <button id="search"><i class="fas fa-search"></i></button>
+       </header>
+       <div class="fav_container" >
+           <h3>Favourite Meals</h3>
+           <ul class="fav-meals" id="fav-meals">
+               <!-- <li><img src="images/f1.jpg" alt="maggie"><span>Maggie</span></li>
+               <li><img src="images/f2.jpg" alt="food2"><span>vadapav</span></li>
+               <li><img src="images/f3.jpg" alt="food3"><span>Chat</span></li> -->
+           </ul>
+       </div>
+       <div class="meals" id="meals">
+           <!-- <div class="meal">
+               <div class="meal-header">
+                    <span class="random">Random Recipie</span>
+
+                   <img src="images/f3.jpg" alt="">
+               </div>
+               <div class="meal-body">
+                   <h4>Meal title</h4>
+                   <button class="fav-btn"><i class="fas fa-heart"></i></button>
+               </div>
+           </div> -->
+       </div>
+   </div>
+    
+        <div class="popup-container hidden " id="meal-popup">
+           <div class="popup" id="popup">
+            <button id="close-popup" class="close-popup"><i class="fas fa-times"></i></button>
+
+               <div class="meal-info-container" id="meal-info-container">
+                   
+                    <!-- <h1>Meal title</h1>
+                    <img src="https://www.themealdb.com/images/media/meals/pn59o51628769837.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Voluptatem dolorem illo ratione? Vitae aspernatur 
+                        quo asperiores necessitatibus veritatis cupiditate cumque minus
+                        ullam earum, ratione rem vel alias, delectus culpa animi!
+                    </p> -->
+                    
+               </div>             
+           </div>
+       </div> 
+
+
+    <script src="script.js"></script>
+</body>
+</html>
